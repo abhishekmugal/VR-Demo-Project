@@ -3,6 +3,9 @@
 @import url("related.css");
 @import url("footer.css");
 @import url("accordion.css");
+@import url("works.css");
+@import url("device.css");
+@import url("tab.css");
 
 * {
     margin: 0px;
@@ -19,11 +22,23 @@ body {
 #container {
     width: 100%;
 }
-#container .head {
-    /*background: url(../images/main_image.jpg);
-    background-size: cover;
-    height: 1000px;
-    border: 1px solid;*/
+#wrapper .work_link {
+    position: fixed;
+    top: 45%;
+    right: 0px;
+    display: block;
+    z-index: 10000;
+    background-color: #dedede;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: 0px 1px 2px gray;
+    opacity: 0.7;
+}
+#wrapper .work_link:hover {
+    background-color: #cdcdcd;
+    box-shadow: 0px 1px 2px darkgray;
+    opacity: 0.95;
 }
 #container .head #arrow_down {
     display: block;
@@ -56,7 +71,6 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
 #container .def {
     text-align: center;
     padding-top: 80px;
@@ -72,6 +86,28 @@ body {
     width: 50%;
     font-size: 26px;
     margin: 80px auto 80px;
+}
+#container .def .def_help_text a {
+    font-size: 20px;
+    color: #0a6571;
+    padding: 18px;
+    background-color: darkgrey;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px silver;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+#container .def .def_help_text a:hover {
+    color: #fff;
+    box-shadow: 0px 2px 3px gray;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
 }
 #container .def img {
     width: inherit;
@@ -167,7 +203,6 @@ body {
 #scrollUp {
     bottom: 20px;
     right: 20px;
-    padding: 10px 20px;
     background: #000 url(../images/scrollup.png) 50% 50% no-repeat;
     width: 40px;
     height: 40px;
@@ -192,6 +227,10 @@ body {
     #container .def .def_help_text{
         font-size: 20px;
         margin: 40px auto 40px;
+    }
+    #container .def .def_help_text a {
+        font-size: 16px;
+        padding: 15px;
     }
     #container .vr, #container .vr2 {
         min-width: 960px;

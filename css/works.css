@@ -1,0 +1,135 @@
+#wrapper .width80{
+    max-width: 1400px;
+    padding: 0px 20px;
+    margin: auto;
+}
+#wrapper .head .main_back {
+    background-image: url(../images/main_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+}
+#container .actual_work{
+    width: inherit;
+    margin: 80px auto 80px;
+}
+#container .actual_work .border_bottom{
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    border-bottom: 1px solid #157d8a;
+}
+#container .actual_work h2{
+    font-size: 34px;
+    text-align: center;
+    text-shadow: none;
+    color: #19a6b7; 
+    text-transform: uppercase;
+}
+#container .actual_work p {
+    font-size: 22px;
+    text-align: justify;
+}
+#container .actual_work .aw_1 {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    font-family: 'Lato', sans-serif;
+}
+#container .actual_work .aw_2{
+    display: block;
+    padding: 40px 0px 10px 0px;
+    font-family: 'Lato', sans-serif;
+    color: tomato;
+}
+#container .actual_work .aw_3{
+    display: block;
+    padding: 30px;
+    font-size: 21px;
+    margin: 20px auto 20px;
+    background: #eee; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eee, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eee, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eee, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eee, #dcdcdc); /* Standard syntax */
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+#container .actual_work .stereo {
+    padding: 40px 60px 40px;
+    margin: 20px auto 20px;
+    background: #434345; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#434345, #7f8c8d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#434345, #7f8c8d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#434345, #7f8c8d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#434345, #7f8c8d); /* Standard syntax */
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0px 2px 4px silver;
+}
+#container .actual_work .stereo h3 {
+    width: auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid tomato;
+    text-shadow: 1px 1px 1px black;
+}
+#container .actual_work .stereo p {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
+    #wrapper .head .main_back {
+        height: 700px;
+    }
+    #container .actual_work{
+        margin: 40px auto 80px;
+    }
+    #container .actual_work .border_bottom{
+        margin-top: 40px;
+    }
+    #container .actual_work h2{
+        font-size: 28px;
+    }
+    #container .actual_work p {
+        font-size: 18px;
+    }
+    #container .actual_work .aw_1 {
+        font-size: 20px;
+    }
+    #container .actual_work .aw_3{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #wrapper .head .main_back {
+        background-image: url(../images/main_image_mob.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    #container .actual_work .border_bottom{
+        margin-top: 60px;
+    }
+    #container .actual_work h2{
+        font-size: 24px;
+    }
+    #container .actual_work p {
+        font-size: 16px;
+    }
+    #container .actual_work .aw_1 {
+        font-size: 17px;
+    }
+    #container .actual_work .aw_3{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,150 @@
+#container .actual_work .mb60 {
+    margin-bottom: 60px;
+}
+#container .actual_work .device1, #container .actual_work .device2{
+    max-width: 1400px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+#container .actual_work .device1 h3, #container .actual_work .device2 h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#container .actual_work .device1 p, #container .actual_work .device2 p{
+    font-size: 20px;
+}
+#container .actual_work .device_back{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#container .actual_work .device1 .fig_dev1{
+    background-image: url(../images/cardboard.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 259px;
+    margin: 40px 40px 20px 60px;
+}
+#container .actual_work .device2 .fig_dev2{
+    background-image: url(../images/oculus.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 320px;
+    margin: 30px 70px 20px 60px;
+}
+#container .actual_work .device1 .fig_dev3{
+    background-image: url(../images/samsung.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 298px;
+    margin: 30px 40px 20px 80px;
+}
+#container .actual_work .device2 .fig_dev4{
+    background-image: url(../images/htc-vive.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 327px;
+    margin: 40px 70px 80px 60px;
+}
+#container .actual_work .device1 .fig_dev5{
+    background-image: url(../images/sony.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 318px;
+    margin: 70px 40px 40px 80px;
+}
+#container .actual_work .device1 .device1_text {
+    float: right;
+    position: relative;
+    top: 0px;
+    max-width: 700px;
+    margin-right: 5%;
+}
+#container .actual_work .device2 .device2_text {
+    float: left;
+    position: relative;
+    top: 30px;
+    max-width: 700px;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
+    #container #device{
+        padding: 0px 20px;
+    }
+    #container .actual_work .device1 h3, #container .actual_work .device2 h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #container .actual_work .device1 p, #container .actual_work .device2 p{
+        font-size: 16px;
+    }
+    #container .actual_work .device1 .device1_text {
+        max-width: 450px;
+        margin-right: 3%;
+    }
+    #container .actual_work .device2 .device2_text {
+        top: 30px;
+        max-width: 450px;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #container #device {
+        padding: 0px 20px;
+    }
+    #container .actual_work .device1, #container .actual_work .device2{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #container .actual_work .device1 .device1_text, #container .actual_work .device2 .device2_text {
+        float: none;
+        max-width: 450px;
+        margin: auto;
+    }
+    #container .actual_work .device1 h3, #container .actual_work .device2 h3{
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #container .actual_work .device1 p, #container .actual_work .device2 p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    #container .actual_work .device1 .fig_dev1{
+        background-image: url(../images/cardboard_mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 168px;
+        margin: 20px auto;
+    }
+    #container .actual_work .device2 .fig_dev2{
+        background-image: url(../images/oculus_mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 208px;
+        margin: 20px auto;
+    }
+    #container .actual_work .device1 .fig_dev3{
+        background-image: url(../images/samsung_mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 194px;
+        margin: 20px auto;
+    }
+    #container .actual_work .device2 .fig_dev4{
+        background-image: url(../images/htc-vive_mob.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 213px;
+        margin: 20px auto;
+    }
+    #container .actual_work .device1 .fig_dev5{
+        background-image: url(../images/sony_mob.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 207px;
+        margin: 20px auto;
+    }
+}
