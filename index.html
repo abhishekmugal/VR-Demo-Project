@@ -57,6 +57,7 @@
                         <p>What is</p>
                         <h1>VR?</h1>
                         <p class="def_help_text">Computer generated, reality manipulated and explored using various input devices such as goggles, headphones, gloves, or a computer. Using these devices a user can browse throughout a virtual world or pickup and manipulate virtual objects.</p>
+                        
                         <img src="images/goggles.png">
                     </div>
                 </section>
@@ -191,6 +192,8 @@
                         <li><a href="https://www.youtube.com/watch?v=NCBEYaC876A" target="_blank"><img src="images/icons/lens_vr.png"><p>VR Lens</p></a></li>
                     </ul>
                 </section>
+                
+                <a class="work_link" href="vr_works.html"><span class="works">&nbsp;How<br>&nbsp;&nbsp;VR<br>works</span></a>
             </main> <!--container ends-->
             
             <footer>
@@ -216,10 +219,10 @@
                     animationInSpeed: 200, // Animation in speed (ms)
                     animationOutSpeed: 200, // Animation out speed (ms)
                     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-                      scrollImg: {
+                    scrollImg: {
                                 active: true,
                                 src: 'images/scrollup.png'
-                            }
+                    }
                   });
                 });
         </script>
@@ -243,32 +246,6 @@
         
         <script>
                 jQuery(document).ready(function($) {
-                  // Adjust 
-                /*  $('.showcase-panels-container').each(function() {
-                    var zIndex = 1;
-                    $(this).find('> ul > li').each(function() {
-                      $(this).css('zIndex', zIndex++);
-                    });
-                  });*/
-                  // Fix panel widths to span 100%
-                  /*
-                  $('.showcase-panels-container').each(function() {
-                    var $panels = $(this).find('> ul > li');
-                    var panelWidth = Math.round( ( 100 / $panels.length ) * 100 ) / 100;
-
-                    var lastWidth = panelWidth;
-                    while ( panelWidth * ($panels.length - 1) + lastWidth < 100 ) {
-                      lastWidth += .01;
-                    }
-                    while ( panelWidth * ($panels.length - 1) + lastWidth > 100 ) {
-                      lastWidth -= .01;
-                    }
-
-                    $panels.css('width', panelWidth + '%')
-                    .eq(-1).css('width', lastWidth + '%');
-                  });
-                  */
-
                   $('.showcase-panels-container > ul > li').hover(
                     function() {
                       $(this).parents('.showcase-panels-container').attr('data-hover', $(this).index());
@@ -288,6 +265,6 @@
                     }
                   );
                 });
-            </script>
+        </script>
     </body>
 </html>
