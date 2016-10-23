@@ -67,6 +67,9 @@
     max-width: 700px;
     margin-left: 5%;
 }
+.fig_dev1, .fig_dev2, .fig_dev3, .fig_dev4, .fig_dev5{
+    opacity: 0;
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 769px) {
     #container #device{
@@ -87,6 +90,9 @@
         top: 30px;
         max-width: 450px;
         margin-left: 3%;
+    }
+    .fig_dev1, .fig_dev2, .fig_dev3, .fig_dev4, .fig_dev5{
+        opacity: 1;
     }
 }
 
@@ -146,5 +152,8 @@
         background-position: center;
         height: 207px;
         margin: 20px auto;
+    }
+    .fig_dev1, .fig_dev2, .fig_dev3, .fig_dev4, .fig_dev5{
+        opacity: 1;
     }
 }

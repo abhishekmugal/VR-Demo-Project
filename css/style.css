@@ -141,7 +141,7 @@ body {
     position: relative;
     top: 220px;
     float: left;
-    left: 8%;
+    left: 6%;
 }
 #container .vr .vr_03 {
     max-width: 780px;
@@ -211,6 +211,10 @@ body {
 }
 #scrollUp:hover {
     opacity: 0.8;
+}
+
+.def_help_text, .fade, .vr_01, .vr_02, .vr_03 {
+    opacity: 0;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 769px){
@@ -308,6 +312,9 @@ body {
     }
     #container .head #arrow_down {
         top: -100px;
+    }
+    .def_help_text, .fade, .vr_01, .vr_02, .vr_03 {
+        opacity: 1;
     }
 }
 
@@ -412,5 +419,8 @@ body {
         background: #000 url(../images/scrollup_mob.png) 50% 50% no-repeat;
         width: 30px;
         height: 30px;
+    }
+    .def_help_text, .fade, .vr_01, .vr_02, .vr_03 {
+        opacity: 1;
     }
 }
