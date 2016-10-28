@@ -115,7 +115,9 @@
     #wrapper .head .main_back {
         background-image: url(../images/main_image_mob.jpg);
         background-repeat: no-repeat;
-        height: 500px;
+        background-size: contain;
+        width: inherit;
+        display: none;
     }
     #container .actual_work .border_bottom{
         margin-top: 60px;

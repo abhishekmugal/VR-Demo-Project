@@ -72,8 +72,9 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 769px) {
-    #container #device{
-        padding: 0px 20px;
+    #container .actual_work .device1, #container .actual_work .device2{
+        padding-right: 20px;
+        padding-left: 20px;
     }
     #container .actual_work .device1 h3, #container .actual_work .device2 h3{
         font-size: 20px;
@@ -97,12 +98,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #container #device {
-        padding: 0px 20px;
-    }
     #container .actual_work .device1, #container .actual_work .device2{
         padding-top: 30px;
         padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     #container .actual_work .device1 .device1_text, #container .actual_work .device2 .device2_text {
         float: none;
@@ -122,36 +122,41 @@
         background-image: url(../images/cardboard_mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        width: 260px;
         height: 168px;
-        margin: 20px auto;
+        margin: 20px auto 0px;
     }
     #container .actual_work .device2 .fig_dev2{
         background-image: url(../images/oculus_mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        width: 260px;
         height: 208px;
-        margin: 20px auto;
+        margin: 20px auto 0px;
     }
     #container .actual_work .device1 .fig_dev3{
         background-image: url(../images/samsung_mob.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        width: 260px;
         height: 194px;
-        margin: 20px auto;
+        margin: 20px auto 0px;
     }
     #container .actual_work .device2 .fig_dev4{
         background-image: url(../images/htc-vive_mob.png);
         background-repeat: no-repeat;
         background-position: center;
+        width: 260px;
         height: 213px;
-        margin: 20px auto;
+        margin: 40px auto 0px;
     }
     #container .actual_work .device1 .fig_dev5{
         background-image: url(../images/sony_mob.png);
         background-repeat: no-repeat;
         background-position: center;
+        width: 260px;
         height: 207px;
-        margin: 20px auto;
+        margin: 20px auto 0px;
     }
     .fig_dev1, .fig_dev2, .fig_dev3, .fig_dev4, .fig_dev5{
         opacity: 1;

@@ -69,16 +69,20 @@
     #container .table-view .row_a, #container .table-view .row_b{
         display: inline-block;
     }
+    #container .table-view .row1 {
+        margin-bottom: 0px;
+        text-align: center;
+    }
     #container .table-view h2{
         font-size: 21px;
     }
     #container .table-view .vr_use {
         font-size: 17px;
+        padding-right: 10px;
     }
     #container .table-view img {
         width: 70px;
         height: 70px;
-        margin-left: 43%;
     }
     #container .row1 h3 {
         font-size: 20px;
@@ -86,5 +90,6 @@
     }
     #container .row1 p {
         font-size: 16px;
+        text-align: justify;
     }
 }

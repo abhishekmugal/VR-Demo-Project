@@ -167,6 +167,9 @@ h2 {
 }
 
 @media only screen and (max-width: 768px){
+    #container .def img.fade {
+        margin-bottom: 60px;
+    }
     .showcase-panels-container{
         height: 800px;
     }
@@ -219,7 +222,7 @@ h2 {
       transform: translateY(10px);
     }
     .showcase-panels-container[data-hover] .showcase-panel-title {
-        font-size: 18px;
+        font-size: 17px;
       -moz-transform: translateY(20px);
       -ms-transform: translateY(20px);
       -webkit-transform: translateY(20px);
@@ -227,7 +230,8 @@ h2 {
     }
     .showcase-panels-container .showcase-panel-content {
         opacity: 1;
-        font-size: 14px;
+        padding: 0 10px;
+        font-size: 13px;
         -moz-transition: none;
         -o-transition: none;
         -webkit-transition: none;

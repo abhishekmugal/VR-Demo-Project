@@ -84,11 +84,17 @@ ul {
         display: none;
     }
     .nav__thumb {
-        height: 90px;
+        height: 80px;
     }
     .nav__thumb:before {
         font-size: 32px;
         opacity: 0.7;
+    }
+    .page {
+        height: 35vh;
+    }
+    .section {
+        height: 35vh;
     }
 }
 
