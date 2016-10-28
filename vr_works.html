@@ -44,7 +44,7 @@
                 <section class="head">
                     <figure class="main_back"></figure>
                     <div id="arrow_down">
-                            <a href="#how_vr_work"><img src="images/scrolldown.gif" id="scroll_down"></a>
+                            <a href="#how_vr_work"><img src="images/scrolldown.gif" alt="Scroll Down" id="scroll_down"></a>
                     </div>
                 </section>
             
@@ -145,8 +145,8 @@
                             <ul class="nav__list">
                                 <li class="nav__item">
                                       <a href="" class="nav__link">
-                                            <div class="nav__thumb color1" data-letter="360&deg;"></div>
-                                            <p class="nav__label">360&deg;</p>
+                                            <div class="nav__thumb color1" data-letter="v"></div>
+                                            <p class="nav__label">Video</p>
                                       </a>
                                 </li>
                                 <li class="nav__item">
@@ -177,7 +177,7 @@
                         </nav>
 
                         <div class="page">
-                              <section class="section section--active color1" data-letter="360&deg;">
+                              <section class="section section--active color1" data-letter="v">
                                     <article class="section__wrapper">
                                           <h1 class="section__title">360&deg; Video</h1>
                                           <p>360-degree videos, also known as immersive videos or spherical videos, are video recordings where a view in every direction is recorded at the same time, shot using an omnidirectional camera or a collection of cameras. During playback the viewer has control of the viewing direction like a panorama, a form of virtual reality.</p>
@@ -238,19 +238,19 @@
         <script>
             $(function () {
                   $.scrollUp({
-                    scrollName: 'scrollUp', // Element ID
-                    topDistance: '300', // Distance from top before showing element (px)
-                    topSpeed: 300, // Speed back to top (ms)
-                    animation: 'fade', // Fade, slide, none
-                    animationInSpeed: 200, // Animation in speed (ms)
-                    animationOutSpeed: 200, // Animation out speed (ms)
-                    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-                    scrollImg: {
-                                active: true,
-                                src: 'images/scrollup.png'
-                    }
+                        scrollName: 'scrollUp', // Element ID
+                        topDistance: '300', // Distance from top before showing element (px)
+                        topSpeed: 300, // Speed back to top (ms)
+                        animation: 'fade', // Fade, slide, none
+                        animationInSpeed: 200, // Animation in speed (ms)
+                        animationOutSpeed: 200, // Animation out speed (ms)
+                        activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+                        scrollImg: {
+                            active: true,
+                            src: 'images/scrollup.png'
+                        }
                   });
-                });
+            });
         </script>
 		<script>
 			var $head = $( '#ha-header' );
@@ -271,22 +271,22 @@
 		</script>
         
         <script>
-        var Nav = (function() {
+            var Nav = (function() {
   
               var
-                nav 		= $('.nav'),
-                burger	= $('.burger'),
-                page 		= $('.page'),
+                nav = $('.nav'),
+                burger = $('.burger'),
+                page = $('.page'),
                 section = $('.section'),
-                link		= nav.find('.nav__link'),
-                navH		= nav.innerHeight(),
-                isOpen 	= true,
-                hasT 		= false;
+                link = nav.find('.nav__link'),
+                navH = nav.innerHeight(),
+                isOpen	= true,
+                hasT = false;
 
               var toggleNav = function() {
-                nav.toggleClass('nav--active');
-                burger.toggleClass('burger--close');
-                shiftPage();
+                    nav.toggleClass('nav--active');
+                    burger.toggleClass('burger--close');
+                    shiftPage();
               };
 
               var shiftPage = function() {
@@ -408,7 +408,6 @@
               };
 
             }());
-
             Nav.init();
         </script>
     </body>
